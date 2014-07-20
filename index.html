@@ -25,11 +25,13 @@
                 <form name="linkadd">
                     <div class="form-group">
                         <label for="link">Link</label>
-                        <input ng-model="linkadd.url" type="url" class="form-control" id="link" placeholder="Enter the link">
+                        <input ng-model="linkadd.url" type="url" class="form-control" id="link"
+                               placeholder="Enter the link">
                     </div>
                     <div class="form-group">
                         <label for="categories">Categories</label>
-                        <input ng-model="linkadd.categories" type="text" class="form-control" id="categories" placeholder="Categories">
+                        <input ng-model="linkadd.categories" type="text" class="form-control" id="categories"
+                               placeholder="Categories">
                     </div>
                     <div class="form-group">
                         <label for="tags">Tags</label>
@@ -37,7 +39,8 @@
                     </div>
                     <div class="form-group">
                         <label for="description">Description</label>
-                        <textarea ng-model="linkadd.description" class="form-control" id="description" placeholder="Description"></textarea>
+                        <textarea ng-model="linkadd.description" class="form-control" id="description"
+                                  placeholder="Description"></textarea>
                     </div>
                     <div class="form-group">
                         <button class="btn btn-default" ng-click="addLink()">Add</button>
@@ -49,9 +52,37 @@
 
     <div class="row">
         <div class="col-xs-12">
+            <h2>Links:</h2>
+        </div>
+        <div class="col-md-6">
+            <div class="well well-sm">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 section-box">
+                        <h2>
+                            Bootsnipp <a href="http://bootsnipp.com/" target="_blank"><span
+                                class="glyphicon glyphicon-new-window">
+                            </span></a>
+                        </h2>
 
+                        <p>
+                            Design elements, playground and code snippets for Bootstrap HTML/CSS/JS framework</p>
+                        <hr/>
+                        <div class="row rating-desc">
+                            <div class="col-md-12">
+                                <span class="glyphicon glyphicon-heart"></span><span class="glyphicon glyphicon-heart">
+                                </span><span class="glyphicon glyphicon-heart"></span><span
+                                    class="glyphicon glyphicon-heart">
+                                </span><span class="glyphicon glyphicon-heart"></span>(36)<span
+                                    class="separator">|</span>
+                                <span class="glyphicon glyphicon-comment"></span>(100 Comments)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
 </div>
 
 </body>
